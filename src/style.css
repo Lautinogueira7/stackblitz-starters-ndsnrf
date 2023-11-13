@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: center;
+  color: orange;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 0, 1cm;
+  font-family: cursive;
+}
+
+h4 {
+  text-align: center;
+  font-size: 3cm;
+  font-family: cursive;
+}
+
+.inicio {
+  display: flex;
+  height: 150px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 15px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.open {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: aliceblue;
+}
